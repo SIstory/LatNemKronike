@@ -140,9 +140,13 @@ span.emph {
     float: right;
 }
 
-p[style="text-align:left"]{
-    margin-inline: 150px;
+/* p{
+    margin-inline-end: 490px;
 }
+
+div[class="closer"]{
+    margin-inline-end: 490px;
+} */
 
 p[style="[1]"]{
     margin-inline: 50px;
@@ -163,7 +167,7 @@ p[style="[4]"]{
 /* Siva obroba okoli vsebine */
 .border-content {
     padding: 15px;
-    /* border-color: #ffffff;
+    /* box-shadow: 2px 2px 7px 1px #acacac;
     background-color: #ffffff; */
 }
 
