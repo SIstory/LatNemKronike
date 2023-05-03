@@ -164,6 +164,10 @@ p[style="[4]"]{
     margin-inline: 200px;
 }
 
+p[style="[5]"]{
+    margin-inline: 300px;
+}
+
 /* Siva obroba okoli vsebine */
 .border-content {
     padding: 15px;
@@ -216,4 +220,8 @@ span.has-tip {
   100% { transform: rotate(360deg); }
 }
 
-
+.show-for-large{
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
