@@ -131,6 +131,7 @@ span.emph {
 }
 
 /* za novi tei:pb in tei:milestone */
+
 .pb {
     display: block;
     float: right;
@@ -140,16 +141,33 @@ span.emph {
     float: right;
 }
 
-/* p{
+div[class="chapter"] p{
+    margin-inline-end: 490px;
+}
+ 
+div[class="letter"] p{
+    margin-inline-end: 510px;
+}
+
+div[class="part"] p{
     margin-inline-end: 490px;
 }
 
+div[class="opener"]{
+    margin-inline-end: 510px;
+} 
+
 div[class="closer"]{
-    margin-inline-end: 490px;
-} */
+    margin-inline-end: 510px; 
+} 
 
 p[style="[1]"]{
     margin-inline: 50px;
+}
+
+span[style="aaa;font-style:italic"]{
+    position: relative;
+    left: 150px;
 }
 
 p[style="[2]"]{
@@ -168,11 +186,23 @@ p[style="[5]"]{
     margin-inline: 300px;
 }
 
+table { 
+    width: 680px;
+    margin-bottom: 1rem;
+    border-collapse: separate;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    line-height: 0.5;
+
+}
+
 /* Siva obroba okoli vsebine */
 .border-content {
     padding: 15px;
-    /* box-shadow: 2px 2px 7px 1px #acacac;
-    background-color: #ffffff; */
+    box-shadow: 2px 2px 7px 1px #acacac;
+    background-color: #ffffff; 
 }
 
 .border-content-inner {
@@ -225,3 +255,9 @@ span.has-tip {
     cursor: -webkit-zoom-in; 
     cursor: zoom-in;
 }
+
+.vertical-menu {
+    max-height:200px;
+    overflow-y: auto; 
+ }
+  
