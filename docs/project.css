@@ -144,6 +144,10 @@ span.emph {
 div[class="chapter"] p{
     margin-inline-end: 490px;
 }
+
+div[class="subchapter"] p{
+    margin-inline-end: 490px;
+}
  
 div[class="letter"] p{
     margin-inline-end: 510px;
@@ -161,8 +165,16 @@ div[class="closer"]{
     margin-inline-end: 510px; 
 } 
 
-p[style="[1]"]{
+p[style*="[1]"]{
     margin-inline: 50px;
+}
+
+ol{
+    margin-inline-end: 490px;
+}
+
+ul{
+    margin-inline-end: 490px;
 }
 
 span[style="aaa;font-style:italic"]{
@@ -170,20 +182,69 @@ span[style="aaa;font-style:italic"]{
     left: 150px;
 }
 
-p[style="[2]"]{
+p[style*="[2]"]{
     margin-inline: 100px;
 }
 
-p[style="[3]"]{
+p[style*="[3]"]{
     margin-inline: 150px;
 }
 
-p[style="[4]"]{
+p[style*="[4]"]{
     margin-inline: 200px;
 }
 
-p[style="[5]"]{
+p[style*="[5]"]{
     margin-inline: 300px;
+}
+
+p[style*="[6]"]{
+    margin-inline: 350px;
+}
+
+p[style*="[7]"]{
+    margin-inline: 400px;
+}
+
+p[style*="[8]"]{
+    margin-inline: 450px;
+}
+
+p[style*="indent"]{
+    text-indent: -40px;
+    margin-left: 40px;
+}
+
+p[style*="alt-indent"]:nth-child(even){
+    text-indent: 40px;
+}
+
+span[style*="[1]"]{
+    margin-inline: 50px;
+}
+
+span[style*="[2]"]{
+    margin-inline: 100px;
+}
+
+span[style*="[3]"]{
+    margin-inline: 150px;
+}
+
+span[style*="[4]"]{
+    margin-inline: 200px;
+}
+span[style*="[5]"]{
+    margin-inline: 250px;
+}
+span[style*="[6]"]{
+    margin-inline: 300px;
+}
+span[style*="[7]"]{
+    margin-inline: 350px;
+}
+span[style*="[8]"]{
+    margin-inline: 400px;
 }
 
 table { 
@@ -192,9 +253,14 @@ table {
     border-collapse: separate;
 }
 
+
+table[style="[2]"]{
+    margin-inline: 100px;
+}
+
 table tbody tr:nth-child(even) {
     background-color: #ffffff;
-    line-height: 0.5;
+    /*line-height: 0.5;*/
 
 }
 
