@@ -144,6 +144,10 @@ span.emph {
 div[class="chapter"] p{
     margin-inline-end: 490px;
 }
+/* pri slovenskem prevodu 1836 ne prestavi zaključka besedila na določeno mesto */
+/* div[class="chapter"] p:not([id^="franz_sl_1836"]) {
+    margin-inline-end: 0;
+} */
 
 div[class="subchapter"] p{
     margin-inline-end: 490px;
@@ -176,6 +180,12 @@ ol{
 ul{
     margin-inline-end: 490px;
 }
+
+[id$="_no-margin"] {
+    margin-inline-end: 0;
+}
+
+
 
 span[style="aaa;font-style:italic"]{
     position: relative;
