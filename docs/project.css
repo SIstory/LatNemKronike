@@ -181,6 +181,10 @@ ul{
     margin-inline-end: 490px;
 }
 
+ul[class="listBibl"]{
+    margin-inline-end: 0;
+}
+
 [id$="_no-margin"] {
     margin-inline-end: 0;
 }
